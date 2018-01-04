@@ -1,11 +1,9 @@
 ---
 templateKey: blog-post
-path: /Jammin
+path: /jammin
 title: We JAMIN'
-date: 2017-01-04T15:04:10.000Z
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+date: 2017-01-04T09:04:10-06:00
+description: GatsbyJS + NetlifyCMS
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RAW1wj3Lx0I?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
