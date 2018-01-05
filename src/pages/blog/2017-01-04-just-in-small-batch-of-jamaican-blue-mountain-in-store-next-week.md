@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 path: /jammin
-title: We JAMIN'
+title: We JAMIN' – GatsbyJS + NetlifyCMS
 date: 2017-01-04T15:04:10.000Z
 description: GatsbyJS + NetlifyCMS
 ---
