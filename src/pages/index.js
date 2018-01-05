@@ -20,6 +20,7 @@ export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
+    const font = `Istok Web, sans-serif`
     return (
       <section className="section">
         <Script
@@ -28,13 +29,13 @@ export default class IndexPage extends React.Component {
         />
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+            <h1 className="is-size-2 is-bold-light" style={{fontFamily: `${font}`}}>Latest</h1>
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
               <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
                 <p>
-                  <Link className="has-text-primary" to={post.frontmatter.path}>
+                  <Link style={{color: 'mediumturquoise'}} to={post.frontmatter.path}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
