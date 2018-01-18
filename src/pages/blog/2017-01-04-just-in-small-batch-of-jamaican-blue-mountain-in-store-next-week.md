@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /jammin
 title: We JAMIN'
-date: 2017-01-16T09:04:10-06:00
+date: 2017-01-16T15:04:10.000Z
 description: JAMStack GatsbyJS + NetlifyCMS
 ---
 - - -
@@ -13,7 +13,8 @@ description: JAMStack GatsbyJS + NetlifyCMS
 
 ## **J**avascript – **A**PIs – **M**arkup
 
-None but ourselves can free our minds... *but* excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) can help. So let me summarize some of the big ideas which make this methodology so promising.
+**None but ourselves can free our minds...** ***but*** excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) can help. So let me summarize some of the big ideas which make this methodology so useful for projects (like this blog) in which popular isomorphic tools present more overhead than is probably necessary.  
+
 
 
  
