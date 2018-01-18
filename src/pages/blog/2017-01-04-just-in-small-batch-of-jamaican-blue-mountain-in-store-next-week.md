@@ -13,8 +13,4 @@ description: JAMStack GatsbyJS + NetlifyCMS
 
 ## **J**avascript – **A**PIs – **M**arkup
 
-**None but ourselves can free our minds...** ***but*** excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) can help. So let me summarize some of the big ideas which make this methodology so useful. Especially for projects (like this blog) in which popular isomorphic tools present more overhead than is probably necessary.  
-
-
-
- 
+**"None but ourselves can free our minds..."** *but* excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) can help. So let me summarize some of the big ideas which make this methodology so useful. Especially for projects (like this blog) in which popular isomorphic tools present more overhead than is probably necessary.
