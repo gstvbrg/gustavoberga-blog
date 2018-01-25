@@ -36,4 +36,4 @@ This is where we’re challenged to see the forest in the trees. To recognize th
 
 Bringing it all together, let's look at how Markdown emphasizes all the best practices of JAMstack methodology. 
 
-Using Markdown formats as common currency for styled components to package raw text into DOM is efficient, but how should we efficiently organize, store, and fetch this text? Time for some **JAM Synergy™**, where each technology complements the others. 
+Using Markdown format as common currency for styled components to package raw text into DOM is efficient; but how should we efficiently organize, store, and fetch this text? Time for some **JAM Synergy™**, where each technology complements the others. Using **J**SX to transform **M**arkdown into DOM suggests standards and best practices that most developers already know or can easily learn. And promotes 
