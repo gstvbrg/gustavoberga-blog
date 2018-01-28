@@ -6,14 +6,18 @@ import './all.sass';
 
 const font = `Sarala, sans-serif`
 
+const navbarStyle = {
+  backgroundImage: `url(https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/pia21551.jpg)`,
+}
+
 const Navbar = () => (
-  <nav className="navbar is-transparent">
+  <nav className="navbar is-transparent" style={{backgroundImage: navbarStyle.backgroundImage }}>
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-          <figure className="image">
-            <h2 style={{ fontFamily: `${font}`, fontSize: '48px'}}>gstvbrg</h2>
-          </figure>
+            <figure className="image">
+              <h2 style={{ fontFamily: `${font}`, fontSize: '53px', color: 'LightCyan'}}>gstvbrg</h2>
+            </figure>
         </Link>
       </div>
     </div>

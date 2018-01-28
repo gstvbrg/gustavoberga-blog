@@ -29,13 +29,13 @@ export default class IndexPage extends React.Component {
         />
         <div className="container">
           <div className="content">
-            <h1 className="is-size-2 is-bold-light" style={{fontFamily: `${font}`}}>Latest</h1>
+            <h1 className="is-size-2 is-bold-light" style={{fontFamily: `${font}`, color: 'DimGray'}}>Latest</h1>
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
-              <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+              <div className="content" style={{ border: '1px solid #eaecee', padding: '2.15em 2.7em' }} key={post.id}>
                 <p>
-                  <Link style={{color: 'mediumturquoise'}} to={post.frontmatter.path}>
+                  <Link style={{color: 'SkyBlue', fontSize: '1.27em'}} to={post.frontmatter.path}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 80)
+          excerpt(pruneLength: 225)
           id
           frontmatter {
             title

@@ -5,15 +5,23 @@ import Helmet from 'react-helmet';
 export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet }) => {
   const PostContent = contentComponent || Content;
   const font = `Istok Web, sans-serif`
-  return <section className="section">
+  return <section className="section" style={{color: 'DimGray'}}>
     { helmet ? helmet : ""}
     <div className="container content">
       <div className="columns">
         <div className="column is-10 is-offset-1">
           <h1 className="title is-size-2"
-              style={{fontFamily: `${font}`}}
+              style={{
+                fontFamily: `${font}`,
+                fontWeight: 'lighter',
+                color: 'DimGray'
+              }}
           >{title}</h1>
-          <p>{description}</p>
+          <p className="subtitle is-4"
+              style={{
+                color: 'skyblue'
+              }}
+          >{description}</p>
           <PostContent content={content} />
         </div>
       </div>
