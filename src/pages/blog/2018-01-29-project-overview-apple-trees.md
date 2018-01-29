@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: appletrees
+path: /appletrees
 title: 'Project Overview: Apple Trees'
 date: 2018-01-29T17:46:42.636Z
 description: Web-based Inventory and Transaction Management Software
