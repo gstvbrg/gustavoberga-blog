@@ -36,8 +36,7 @@ export default class IndexPage extends React.Component {
                   color: 'DimGray',
                   fontWeight: '500',
                   textShadow: '3px 3px 4px gainsboro'}}
-              >
-              Latest
+              > Latest
               </h1>
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
@@ -59,20 +58,18 @@ export default class IndexPage extends React.Component {
                       textShadow: '3px 3px 4px rgb(172, 215, 233)'
                     }} 
                     to={post.frontmatter.path}
-                    > 
-                    {post.frontmatter.title}
+                    > {post.frontmatter.title}
                   </Link>
                   <p 
                     className="subtitle is-7" 
                     style={{
                       textTransform: 'uppercase',
                     }}
-                    > 
-                    {post.frontmatter.date}
+                    > {post.frontmatter.date}
                   </p>
                 </p>
                 <p>
-                  {post.excerpt}
+                  {post.frontmatter.description}
                   <br />
                   <br />
                   <Link className="button is-small" to={post.frontmatter.path} style={{boxShadow: '4px 4px 18px rgb(185, 215, 233)'}}>
@@ -100,6 +97,7 @@ export const pageQuery = graphql`
             templateKey
             date(formatString: "MMMM DD, YYYY")
             path
+            description
           }
         }
       }
