@@ -22,6 +22,7 @@ export const BlogPostTemplate = ({ content, contentComponent, description, title
                 color: 'skyblue'
               }}
           >{description}</p>
+          <hr/>
           <PostContent content={content} />
         </div>
       </div>

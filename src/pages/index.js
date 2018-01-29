@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import Script from 'react-load-script';
 
 export default class IndexPage extends React.Component {
+  
   handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', user => {
@@ -29,23 +30,37 @@ export default class IndexPage extends React.Component {
         />
         <div className="container">
           <div className="content">
-            <h1 className="is-size-2 is-bold-light" style={{fontFamily: `${font}`, color: 'DimGray'}}>Latest</h1>
+            <h1 className="is-size-2" 
+                style={{
+                  fontFamily: `${font}`,
+                  color: 'DimGray',
+                  fontWeight: '500',
+                  textShadow: '3px 3px 4px gainsboro'}}
+              >Latest</h1>
           </div>
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
             return (
               <div className="content" style={{ border: '1px solid #eaecee', padding: '2.15em 2.7em' }} key={post.id}>
                 <p>
-                  <Link style={{color: 'SkyBlue', fontSize: '1.27em'}} to={post.frontmatter.path}>
+                  <Link style={{
+                      color: 'rgb(140, 206, 233)', 
+                      fontSize: '1.8em',
+                      fontWeight: '475',
+                      textShadow: '3px 3px 4px rgb(172, 215, 233)'}} 
+                    to={post.frontmatter.path}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
-                  <small>{post.frontmatter.date}</small>
+                  <small style={{
+                    textTransform: 'uppercase', 
+                    fontSize: '0.78em',
+                  }}>{post.frontmatter.date}</small>
                 </p>
                 <p>
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button is-small" to={post.frontmatter.path}>
+                  <Link className="button is-small" to={post.frontmatter.path} style={{boxShadow: '4px 4px 18px rgb(185, 215, 233)'}}>
                     Keep Reading →
                   </Link>
                 </p>

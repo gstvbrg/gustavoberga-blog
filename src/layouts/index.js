@@ -16,7 +16,12 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
             <figure className="image">
-              <h2 style={{ fontFamily: `${font}`, fontSize: '53px', color: 'LightCyan'}}>gstvbrg</h2>
+              <h2 style={{ 
+                fontFamily: `${font}`,
+                fontSize: '3.47em', 
+                color: 'rgb(242, 258, 255)',
+                textShadow: '3px 3px 3px skyblue'  
+              }}>gstvbrg</h2>
             </figure>
         </Link>
       </div>
@@ -27,9 +32,9 @@ const Navbar = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet> 
+      <link rel="icon" type="image/png" href="../img/favicon.ico" />
       <title>Home | Gustavo Berga</title>
       <link href="https://fonts.googleapis.com/css?family=Audiowide|Cantarell|Hind+Siliguri|Istok+Web|Sarala|Sorts+Mill+Goudy" rel="stylesheet"/>
-      <link rel="icon" type="image/png" href="../img/favicon.ico" />
     </Helmet>
     <Navbar />
     <div>{children()}</div>
