@@ -40,5 +40,5 @@ It's easy to appreciate using Markdown format as a common currency for styled co
 
 In some form this methodology has been around for many years, and like many innovations it can seem obvious and uninteresting almost instantly given many developers familiarity with the underlying technology. 
 
-But the important distinction today is the incredible growth and availability of both open-source tools and cloud services which make this architecture accessible to the average developer. Moreover I thinks it's a new high-water mark for the potential productivity of individual developers; as there's never been more cloud services **_and_** and it has never been easier to access and  integrate the **_and_** it all promotes the best user experience the web has to offer. 
+But the important distinction today is the incredible growth and availability of both open-source tools and cloud services which make this architecture accessible to the average developer. Moreover I thinks it's a new high-water mark for the productivity potential of individual developers; as there's never been more cloud services available **_and_** they've never been easier to access and integrate  **_and_** it all promotes the best user experience the web has to offer. 
 
