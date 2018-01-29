@@ -32,9 +32,9 @@ const Navbar = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet> 
-      <link rel="icon" type="image/png" href="../img/favicon.ico" />
       <title>Home | Gustavo Berga</title>
       <link href="https://fonts.googleapis.com/css?family=Audiowide|Cantarell|Hind+Siliguri|Istok+Web|Sarala|Sorts+Mill+Goudy" rel="stylesheet"/>
+      <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA//36AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREAAAAAERABERAAAAARAAAREQAAABEAABEREAAAERABEREQAAABERERERAAAAAREREREAAAAAAAAREQAAAAAAAAERAAAAABEAABEAAAABERAAEQAAAAEREAAQAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAADwDwAA4AcAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAwAMAAOAHAADwDwAA" rel="icon" type="image/x-icon" />
     </Helmet>
     <Navbar />
     <div>{children()}</div>
