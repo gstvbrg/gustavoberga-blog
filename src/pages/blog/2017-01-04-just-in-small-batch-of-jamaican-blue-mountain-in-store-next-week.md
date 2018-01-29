@@ -8,11 +8,11 @@ description: JAMStack GatsbyJS + NetlifyCMS
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RAW1wj3Lx0I?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 <br/><br/>
 
-**_VASTLY_** nerdier than how Bob Marley’s anthems urge us to rethink politics, JAMstack evangelist want to elevate how we think about web development; moving beyond the battles among frameworks towards a higher level re-evaluation of web architecture.  
+**_VASTLY_** nerdier than how Bob Marley’s anthems urge us to rethink the powers that be, JAMstack evangelist want to elevate how we think about web development; moving beyond the battles among frameworks towards a higher level re-evaluation of web architecture.  
 
 ## **J**avascript – **A**PIs – **M**arkup
 
-As Bob Marley says, **"None but ourselves can free our minds..."** _but_ excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) can absolutely help. So let me summarize some of these big ideas which make this methodology so useful. Especially for projects (like this blog) in which popular isomorphic tools can be increasingly optimized to remove unnecessary overhead and redundancy. 
+As Bob Marley says, **"None but ourselves can free our minds..."** _but_ excellent documentation at [Netlify](https://www.netlify.com/blog/2017/06/06/jamstack-vs-isomorphic-server-side-rendering/) and [JAMstack.org](https://jamstack.org/) has absolutely helped. So let me summarize some of these big ideas which make this methodology so useful. Especially for projects (like this blog) in which popular isomorphic tools can be increasingly optimized to remove unnecessary overhead and redundancy. 
 
 #### **Laying down the baseline**
 
@@ -40,5 +40,5 @@ Using Markdown format as common currency for styled components to package raw te
 
 In some form this methodology has been around for many years, and like many innovations it can seem obvious and uninteresting almost instantly given many developers familiarity with the underlying technology. 
 
-But the important distinction today is the incredible growth and availability of both open-source tools and cloud services which make this architecture accessible to the average developer. Moreover I thinks it's a new high-water mark for the potential of individual developers; as there's never been more cloud services **_and_** they've never been easier to integrate **_and_** it all promotes the best user experiences the web has to offer. 
+But the important distinction today is the incredible growth and availability of both open-source tools and cloud services which make this architecture accessible to the average developer. Moreover I thinks it's a new high-water mark for the potential of individual developers; as there's never been more cloud services **_and_** they've never been easier to integrate **_and_** it all promotes the best user experience the web has to offer. 
 
