@@ -20,7 +20,7 @@ const Navbar = () => (
                 fontFamily: `${font}`,
                 fontSize: '3.47em', 
                 color: 'rgb(242, 258, 255)',
-                textShadow: '3px 3px 3px skyblue'  
+                textShadow: '3px 3px 3px lightskyblue'  
               }}>gstvbrg</h2>
             </figure>
         </Link>

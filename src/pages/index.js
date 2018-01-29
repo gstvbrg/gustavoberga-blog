@@ -52,10 +52,10 @@ export default class IndexPage extends React.Component {
                 <p>
                   <Link 
                     style={{
-                      color: 'rgb(140, 206, 233)', 
+                      color: 'slategray', 
                       fontSize: '1.83em',
                       fontWeight: '475',
-                      textShadow: '3px 3px 4px rgb(172, 215, 233)'
+                      textShadow: '3px 3px 6px rgb(178, 196, 222)'
                     }} 
                     to={post.frontmatter.path}
                     > {post.frontmatter.title}
