@@ -2,7 +2,7 @@
 templateKey: blog-post
 path: /jammin
 title: Jammin'
-date: 2017-01-16T15:04:10.000Z
+date: 2018-01-16T09:04:10-06:00
 description: 'JAMStack: GatsbyJS + NetlifyCMS'
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RAW1wj3Lx0I?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
