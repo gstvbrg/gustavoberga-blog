@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: jozNameplate
+path: /jozNameplate
 title: '3D Print: Jo-z Christmas Ornament '
 date: 2018-01-29T21:04:51.703Z
 description: 'Picture and Interactive model    '
@@ -12,4 +12,6 @@ description: 'Picture and Interactive model    '
     by <a href="https://sketchfab.com/gstvbrg?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">gstvbrg</a>
     on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
 </p>
-</div>
+</div><br/>
+
+![Jo-z Ornament](https://i.imgur.com/tJVvPHE.jpg)
