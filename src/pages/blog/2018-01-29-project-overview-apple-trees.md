@@ -1,11 +1,13 @@
 ---
 templateKey: blog-post
 path: /appletrees
-title: 'Project Overview: Apple Trees'
+title: 'Project README: Apple Trees'
 date: 2018-01-29T17:46:42.636Z
 description: Web-based Inventory and Transaction Management Software
 ---
-# Apple Trees
+###### *( copy of [project repository README](https://github.com/gstvbrg/enterpiseAppleTree) )*
+
+## Apple Trees
 > Web-based Inventory and Transaction Management Software
 
 #### Table of Contents
