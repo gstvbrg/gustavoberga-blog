@@ -55,7 +55,7 @@ export default class IndexPage extends React.Component {
                       color: 'slategray', 
                       fontSize: '1.83em',
                       fontWeight: '475',
-                      textShadow: '3px 3px 6px rgb(178, 196, 222)'
+                      textShadow: '3px 3px 6px rgb(178, 196, 222)' // #94cae0
                     }} 
                     to={post.frontmatter.path}
                     > {post.frontmatter.title}

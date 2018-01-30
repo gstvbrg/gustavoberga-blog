@@ -11,7 +11,11 @@ const navbarStyle = {
 }
 
 const Navbar = () => (
-  <nav className="navbar is-transparent" style={{backgroundImage: navbarStyle.backgroundImage }}>
+  <nav className="navbar is-transparent" 
+    style={{
+      backgroundImage: navbarStyle.backgroundImage,
+      borderBottom: '5px solid gb(161, 202, 224);'
+    }}>
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
