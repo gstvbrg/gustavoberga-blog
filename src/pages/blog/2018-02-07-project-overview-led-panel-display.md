@@ -11,3 +11,6 @@ description: Alibaba and Open Source Hardware
 ![Imgur](https://i.imgur.com/aL87WY5.gif)
 
 ![Imgur](https://i.imgur.com/dxgpX7a.jpg?1)
+
+[ElectroDragon Panel Driver](http://www.electrodragon.com/product/rgb-matrix-panel-drive-board-raspberry-pi/)
+
