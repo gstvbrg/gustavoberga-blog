@@ -5,7 +5,8 @@ title: 'LED Panel Display '
 date: 2018-02-07T17:44:56.237Z
 description: 'Open Source, Shenzhen, and the Maker Movement '
 ---
-<iframe allowFullScreen frameborder="0" height="564" mozallowfullscreen src="https://player.vimeo.com/video/262771730" webkitAllowFullScreen width="640"></iframe>
+<iframe allowFullScreen frameborder="0" height="380" mozallowfullscreen src="https://player.vimeo.com/video/262771730" webkitAllowFullScreen width="640"
+marginheight="0" marginwidth="0"></iframe>
 
 > "Hardware is becoming much more like software," as MIT professor Eric Von Hippel puts it. The Web was just the proof-of-concept of what an open, bottom-up, collaborative industrial model could look like. Now the revolution hits the real world.
 >
